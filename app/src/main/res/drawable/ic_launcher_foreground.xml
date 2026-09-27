@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Vision Target Reticle Brackets (AI Bounding Box) -->
+    <!-- Top Left Corner -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M27,37 L27,27 L37,27" />
+
+    <!-- Top Right Corner -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M81,37 L81,27 L71,27" />
+
+    <!-- Bottom Left Corner -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M27,71 L27,81 L37,81" />
+
+    <!-- Bottom Right Corner -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M81,71 L81,81 L71,81" />
+
+    <!-- Horizontal Scan Laser Beam -->
+    <path
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M29,54 L79,54" />
+
+    <!-- Vehicle Silhouette (Front Perspective) -->
+    <!-- Cabin Roof / Windshield Outer -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M43,36 C45,34 63,34 65,36 L72,48 C72,48 36,48 36,48 Z" />
+
+    <!-- Windshield Glass -->
+    <path
+        android:fillColor="#0B1220"
+        android:pathData="M44.5,38 C46,36.5 62,36.5 63.5,38 L69,47 L39,47 Z" />
+
+    <!-- Car Body / Hood / Front Bumper -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M33,48 C33,48 35,46 40,46 L68,46 C73,46 75,48 75,48 C77,49 78,53 78,56 L77,66 C77,69 75,70 73,70 L69,70 C68,70 67,68 67,66 L41,66 C41,68 40,70 39,70 L35,70 C33,70 31,69 31,66 L30,56 C30,53 31,49 33,48 Z" />
+
+    <!-- Headlights (Aggressive Angle) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M34,53 L41,53 L39,57 L33,56 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M74,53 L67,53 L69,57 L75,56 Z" />
+
+    <!-- Lower Grille / Air Intake -->
+    <path
+        android:fillColor="#0B1220"
+        android:pathData="M42,58 L66,58 C67,58 68,59 67,61 L65,65 C64,66 63,66 62,66 L46,66 C45,66 44,66 43,65 L41,61 C40,59 41,58 42,58 Z" />
+
+    <!-- Emblem / Radar Sensor Point -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M52,53 C52,51.9 52.9,51 54,51 C55.1,51 56,51.9 56,53 C56,54.1 55.1,55 54,55 C52.9,55 52,54.1 52,53 Z" />
+</vector>

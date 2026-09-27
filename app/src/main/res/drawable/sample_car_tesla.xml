@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Dark Automotive Studio Backdrop -->
+    <path
+        android:fillColor="#080D17"
+        android:pathData="M0,0h400v240h-400z" />
+
+    <!-- Floor Reflection & Shadow -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M0,170h400v70h-400z" />
+    <path
+        android:fillColor="#04060A"
+        android:pathData="M40,185 Q200,195 365,185 Q200,205 40,185 Z" />
+
+    <!-- Tesla Model S Fastback Sedan (Pearl White) -->
+    <!-- Lower Body / Chassis -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M45,165 C55,165 70,135 110,135 C135,135 150,165 170,165 L270,165 C285,165 295,135 325,135 C345,135 355,165 370,165 L378,154 C378,142 365,132 345,126 L305,120 C265,95 200,95 155,108 L100,126 C75,135 50,146 45,158 Z" />
+
+    <!-- Sleek Fastback Glass Roofline -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M148,110 C180,92 250,92 300,112 L308,122 L145,122 Z" />
+
+    <!-- Tinted Panoramic Glass Windows -->
+    <path
+        android:fillColor="#020617"
+        android:pathData="M155,112 C185,96 245,96 285,110 L292,120 L152,120 Z" />
+
+    <!-- Flush Door Handles (Chrome / Silver) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M190,132 L205,132 L205,134 L190,134 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M250,132 L265,132 L265,134 L250,134 Z" />
+
+    <!-- LED Headlight Strip (Clean Ice Blue/White) -->
+    <path
+        android:fillColor="#BAE6FD"
+        android:pathData="M46,146 L58,142 L60,148 Z" />
+
+    <!-- Tail Light Strip -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M366,138 L376,141 L374,146 L365,144 Z" />
+
+    <!-- Front Aero Wheel (Turbine Style) -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M110,165 m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M110,165 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M110,165 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Rear Aero Wheel -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M315,165 m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M315,165 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M315,165 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Subtle White Pearl Shading Line -->
+    <path
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M110,133 L180,131 L280,131 L325,133" />
+</vector>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Dark Automotive Studio Backdrop -->
+    <path
+        android:fillColor="#0B1220"
+        android:pathData="M0,0h400v240h-400z" />
+
+    <!-- Floor Reflection & Shadow -->
+    <path
+        android:fillColor="#111B2E"
+        android:pathData="M0,170h400v70h-400z" />
+    <path
+        android:fillColor="#05080E"
+        android:pathData="M35,185 Q200,195 365,185 Q200,205 35,185 Z" />
+
+    <!-- BMW M3 / 3 Series Sports Sedan Silhouette (Electric Blue) -->
+    <!-- Lower Body / Chassis -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M40,165 C50,165 65,135 105,135 C135,135 150,165 170,165 L270,165 C285,165 295,135 325,135 C345,135 355,165 370,165 L380,152 C380,140 365,132 345,128 L295,125 C250,96 185,96 145,110 L90,130 C65,135 45,148 40,158 Z" />
+
+    <!-- Sedan Roofline & Hofmeister Kink -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M140,115 C170,95 240,95 285,110 L305,126 L140,126 Z" />
+
+    <!-- Dark Tint Windows (Front and Rear Sedan Doors) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M150,114 C175,99 235,99 275,108 L285,122 L152,122 Z" />
+
+    <!-- Center B-Pillar Divider -->
+    <path
+        android:strokeColor="#2563EB"
+        android:strokeWidth="3.5"
+        android:pathData="M215,98 L215,122" />
+
+    <!-- Headlight (BMW Angel Eye Glow in Neon Cyan) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M42,148 L56,142 L58,150 Z" />
+
+    <!-- L-Shaped Rear Tail Light (Vibrant Red) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M368,138 L378,142 L375,147 L366,145 Z" />
+
+    <!-- Front Wheel (BMW M Double-Spoke Alloy) -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M105,165 m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M105,165 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M98,155 L103,155 L103,165 L98,165 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M105,165 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Rear Wheel -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M315,165 m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M315,165 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M308,155 L313,155 L313,165 L308,165 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M315,165 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Character Shoulder Line -->
+    <path
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M100,132 L200,130 L320,130" />
+</vector>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Dark Automotive Studio Backdrop -->
+    <path
+        android:fillColor="#0A0E17"
+        android:pathData="M0,0h400v240h-400z" />
+
+    <!-- Floor Reflection & Shadow -->
+    <path
+        android:fillColor="#151D2C"
+        android:pathData="M0,170h400v70h-400z" />
+    <path
+        android:fillColor="#04060A"
+        android:pathData="M35,185 Q200,195 365,185 Q200,205 35,185 Z" />
+
+    <!-- Audi R8 Supercar (Vegas Yellow / Gold) -->
+    <!-- Lower Body / Chassis -->
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M45,165 C55,165 70,135 110,135 C135,135 150,165 170,165 L270,165 C285,165 295,135 325,135 C345,135 355,165 370,165 L378,154 C378,144 365,135 348,130 L315,122 C275,100 215,95 165,102 L110,124 C85,132 55,142 45,155 Z" />
+
+    <!-- Low Mid-Engine Cockpit Roofline -->
+    <path
+        android:fillColor="#CA8A04"
+        android:pathData="M140,118 C175,98 235,96 280,112 L298,124 L138,124 Z" />
+
+    <!-- Dark Tint Windows & Windshield -->
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M150,116 C180,100 230,98 265,110 L275,122 L148,122 Z" />
+
+    <!-- Iconic Audi R8 Carbon Side Blade Behind Door -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M272,112 L292,122 L288,148 L275,148 Z" />
+
+    <!-- Angular Matrix LED Headlight -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M46,148 L60,144 L62,151 Z" />
+
+    <!-- Tail Light Strip -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M366,140 L376,143 L374,148 L365,146 Z" />
+
+    <!-- Front Wheel (Anthracite 10-Spoke Alloy) -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M110,165 m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M110,165 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M102,155 L107,155 L107,165 L102,165 Z" />
+    <path
+        android:fillColor="#A1A1AA"
+        android:pathData="M110,165 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Rear Wheel -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M315,165 m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M315,165 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M308,155 L313,155 L313,165 L308,165 Z" />
+    <path
+        android:fillColor="#A1A1AA"
+        android:pathData="M315,165 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Highlight Edge -->
+    <path
+        android:strokeColor="#FDE047"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M110,134 L210,132 L310,132" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "AutoVision AI",
+  "description": "AI-powered vehicle detection, make and model recognition, and exterior color analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

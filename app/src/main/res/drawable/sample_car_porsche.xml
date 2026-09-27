@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Dark Automotive Studio Backdrop -->
+    <path
+        android:fillColor="#0D1525"
+        android:pathData="M0,0h400v240h-400z" />
+
+    <!-- Floor Reflection Gradient & Ground Shadow -->
+    <path
+        android:fillColor="#152033"
+        android:pathData="M0,170h400v70h-400z" />
+    <path
+        android:fillColor="#060A12"
+        android:pathData="M40,185 Q200,195 360,185 Q200,205 40,185 Z" />
+
+    <!-- Porsche 911 GT3 Silhouette (Side Profile in Guards Red) -->
+    <!-- Lower Body / Chassis -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M50,165 C60,165 75,135 110,135 C135,135 150,165 170,165 L270,165 C285,165 295,135 325,135 C345,135 355,165 365,165 L375,155 C375,145 360,135 345,130 L310,120 C270,100 220,90 170,95 L110,120 C85,130 55,140 45,155 Z" />
+
+    <!-- Aerodynamic Roof & Cabin -->
+    <path
+        android:fillColor="#B91C1C"
+        android:pathData="M130,120 C160,95 210,90 270,100 L300,122 Z" />
+
+    <!-- Tinted Windshield & Side Windows -->
+    <path
+        android:fillColor="#0B1220"
+        android:pathData="M145,118 C175,100 215,96 260,105 L285,120 L155,120 Z" />
+
+    <!-- Window Pillar Split -->
+    <path
+        android:strokeColor="#DC2626"
+        android:strokeWidth="3"
+        android:pathData="M210,100 L212,120" />
+
+    <!-- Headlight Beam (Amber/White Accent) -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M45,150 L55,145 L58,153 Z" />
+
+    <!-- Rear Tail Light Strip (Neon Red) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M365,142 L375,145 L372,150 L362,148 Z" />
+
+    <!-- Rear Aerodynamic GT3 Wing / Spoiler -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M335,115 L365,110 L370,115 L338,120 Z" />
+    <path
+        android:strokeColor="#1E293B"
+        android:strokeWidth="2.5"
+        android:pathData="M345,120 L345,130 M360,118 L360,132" />
+
+    <!-- Front Wheel (Gunmetal Alloy + Red Caliper) -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M110,165 m-28,0 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M110,165 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M100,155 L106,155 L106,165 L100,165 Z" />
+    <path
+        android:fillColor="#71717A"
+        android:pathData="M110,165 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+    <!-- Rear Wheel -->
+    <path
+        android:fillColor="#18181B"
+        android:pathData="M310,165 m-28,0 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0" />
+    <path
+        android:fillColor="#3F3F46"
+        android:pathData="M310,165 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M300,155 L306,155 L306,165 L300,165 Z" />
+    <path
+        android:fillColor="#71717A"
+        android:pathData="M310,165 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+    <!-- Body Contour Highlights -->
+    <path
+        android:strokeColor="#F87171"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M110,135 L170,135 L260,138 L320,135" />
+</vector>
